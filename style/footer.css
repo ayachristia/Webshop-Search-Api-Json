@@ -1,0 +1,36 @@
+.site__footer {
+    background-color: rgba(163,145,97,255); /* Color Picker brugt til at finde korrekt farve i footeren */
+    color: white;
+
+} 
+  .flex__container__footer {
+    display: flex;
+    justify-content: space-between; /* Pushes the left and right containers to opposite sides */
+}
+
+.left__container__footer {
+    flex: 1; 
+    background-color: rgba(163,145,97,255);
+    padding: 20px;
+}
+
+.right__container__footer {
+    flex: 1; 
+    background-color: rgba(163,145,97,255);
+    padding: 20px;
+}
+
+.footer__paragh {
+    line-height: 1.2;
+    color: black;
+}
+
+.footer__tags {
+  color: white;
+}
+
+
+
+
+
+

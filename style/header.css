@@ -1,0 +1,53 @@
+.header {
+    position: absolute;
+    z-index: 99;
+    /* height: 100%; */
+    width: 100%;
+}
+
+.header__top {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 15px 15px;
+    border-bottom: 1ps solid lightgray;
+}
+
+.header__top i{
+    margin: 2px 6px 0 10px;
+}
+
+.header__navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-top: 1px solid rgba(255, 255, 255, 0.535);
+    height: 3em;
+}
+
+.header__nav a {
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+
+.subscribe__btn {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 14px;
+    padding: 1px 5px;
+    background-color: rgb(72, 132, 237);
+    color: white;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+.subscribe__btn i {
+    padding-top: 2px;
+}

@@ -1,0 +1,17 @@
+@import url("../fonts/museo-sans-rounded-webfont/style.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Museo Sans Rounded', sans-serif;                              
+}
+
+body {
+    background-color: rgb(39, 38, 38);
+    color: white;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+

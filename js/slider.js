@@ -18,13 +18,13 @@ function showSlides(n) {
 
     let images = [
         {
-            src: "/img/forside_marantz_slider_2.jpg", text: "MARANTZ"
+            src: /Webshop-Search-Api-Json//img/forside_marantz_slider_2.jpg", text: "MARANTZ"
         },
         {
-            src: "/img/forside_slider1.jpg", text: "SONY SPEAKERS"
+            src: "/Webshop-Search-Api-Json/img/forside_slider1.jpg", text: "SONY SPEAKERS"
         },
         {
-            src: "/img/meshuggah_apmlifier_slider_3.webp", text: "MESHUGGAH AMPLIFIER"
+            src: "/Webshop-Search-Api-Json/img/meshuggah_apmlifier_slider_3.webp", text: "MESHUGGAH AMPLIFIER"
         }
     ]
 

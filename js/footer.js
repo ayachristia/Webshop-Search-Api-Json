@@ -11,10 +11,10 @@ footer.innerHTML =`
                 <a href="refunds.html" class="footer__tags">Returns & Refunds</a> | <a href="privacy.html" class="footer__tags">Privacy Policy</a>
             </div>
             <div class="right__container__footer">
-                <img src="/img/PaymentLogos.PNG" alt="" srcset="">
+                <img src="/Webshop-Search-Api-Json/img/PaymentLogos.PNG" alt="" srcset="">
             </div>
             <div class="right__container__footer">
-                <img src="/img/SoMeTags.PNG" alt="Social Media Logos" >
+                <img src="/Webshop-Search-Api-Json/img/SoMeTags.PNG" alt="Social Media Logos" >
             </div>
         </section>
 

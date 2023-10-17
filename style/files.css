@@ -1,13 +1,11 @@
-$common_path: "/Webshop-Search-Api-Json";
-
-@import url("/style/aboutUs.css");
-@import url("/style/header.css");
-@import url("/style/brands.css");
-@import url("/style/customProperties.css");
-@import url("/style/shopCategory.css");
-@import url("/style/index.css");
-@import url("/style/search.css");
-@import url("/style/linkstyle");
+@import url("/Webshop-Search-Api-Json/style/aboutUs.css");
+@import url("/Webshop-Search-Api-Json/style/header.css");
+@import url("/Webshop-Search-Api-Json/style/brands.css");
+@import url("/Webshop-Search-Api-Json/style/customProperties.css");
+@import url("/Webshop-Search-Api-Json/style/shopCategory.css");
+@import url("/Webshop-Search-Api-Json/style/index.css");
+@import url("/Webshop-Search-Api-Json/style/search.css");
+@import url("/Webshop-Search-Api-Json/style/linkstyle");
 @import url("/style/productButtons.css");
 @import url("/style/contactUs.css");
 @import url("/style/slider.css");

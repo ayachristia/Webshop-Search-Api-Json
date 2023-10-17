@@ -18,7 +18,7 @@ function showSlides(n) {
 
     let images = [
         {
-            src: /Webshop-Search-Api-Json//img/forside_marantz_slider_2.jpg", text: "MARANTZ"
+            src: /Webshop-Search-Api-Json/img/forside_marantz_slider_2.jpg", text: "MARANTZ"
         },
         {
             src: "/Webshop-Search-Api-Json/img/forside_slider1.jpg", text: "SONY SPEAKERS"

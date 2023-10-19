@@ -1,6 +1,6 @@
 
 const urlSearchParams = new URLSearchParams(window.location.search)
-const fetchURL = new URL('/Webshop-Search-Api-Json/http://localhost:3000/products')
+const fetchURL = new URL('/Webshop-Search-Api-Json/products')
 fetchURL.searchParams.set('_sort', urlSearchParams.get("sort" ?? "currentPrice"))
 fetchURL.searchParams.set('q', urlSearchParams.get("category"))
 

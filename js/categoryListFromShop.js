@@ -1,6 +1,6 @@
 
 const urlSearchParams = new URLSearchParams(window.location.search)
-const fetchURL = new URL('https://ayachristia.github.io:3000/Products')
+const fetchURL = new URL('https://ayachristia.github.io/Webshop-Search-Api-Json/db.json')
 fetchURL.searchParams.set('_sort', urlSearchParams.get("sort" ?? "currentPrice"))
 fetchURL.searchParams.set('q', urlSearchParams.get("category"))
 

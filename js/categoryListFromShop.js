@@ -18,7 +18,7 @@ fetch(fetchURL)
 
     const PREVIOUSFOCUS = document.querySelector(".categoryList__Ul");
 
-    data.forEach(function (item) {
+    data.products.forEach(function (item) {
       const headerFocus = document.querySelector(".categoryList__h2");
       headerFocus.textContent = item.category;
 

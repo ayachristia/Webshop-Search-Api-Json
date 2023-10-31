@@ -22,7 +22,7 @@ HEADER.innerHTML = `
 <a href="aboutUs.html">about us</a>
 <a href="branch.html">brands</a>
 <a href="events.html">events</a>
-<a href="shopCategory.html">shop</a>
+<a href="shop.html">shop</a>
 <a href="contact.html">contact us</a>
 </nav>
 </section>

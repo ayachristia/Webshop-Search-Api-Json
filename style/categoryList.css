@@ -82,18 +82,12 @@
     text-transform: uppercase;
 }
 
-/* ---  */
 
-.categoryNav__navItem {
-    color: black !important;
-}
-
-
-/* ----------------categoryListFromShop.js--------------  */
+/* ----------------categoryList product style--------------  */
 
 .categoryList__Ul {
     display: flex;
-    gap: 4%;
+    gap: 1%;
     
     flex-wrap: wrap;
     padding: 0 0 0 2%;
@@ -108,7 +102,7 @@
     text-align: center;
     
     /* width: 22%; */
-    width: 190px;
+    width: 170px;
     margin-bottom: 2%;
 }
 
@@ -116,15 +110,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* width: 100%; */
-    height: 200px;
-    padding: 10% 0;
 
+    height: 200px;
     border: lightgray 1px solid;
 }
 
 .product__img {
-    width: 190px;
+    width: 100%;
 }
 
 
@@ -155,86 +147,7 @@
 }
 
 
-/* Updated CSS to arrange grid containers */
-/* -----dette skal sættes på UL + LI'er ovenfor istedet---  */
-.product__container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-
-.productResults{
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    gap: 10px;
-    row-gap: 20px;
-    grid-column: 2;
-   
-  }
-  .productList_container{
-      grid-column: 2;
-     
-  }
-  
-  .productLink{
-      text-decoration: none;
-     
-  }
-  .productList_text{
-      margin:0%
-     
-  }
-  .price{
-      display: flex;
-      justify-content: center;
-      padding: 5%;
-      padding-bottom: 0%;
-      margin: 0%;
-      align-items: center;
-   }
-  
-  .categoryList__container{
-      display: grid;
-      grid-column: 1fr 3fr 1fr;
-      grid-row: 1;
-   
-  }
-  
-  .categoryList__category{
-      grid-column: 1;
-  }
-  .listImg{
-      height: 100px;
-      width: 100px;
-  }
-  
-  .categoryList__shopBy{
-      grid-column: 1;
-  }
-  .actionButton {
-      background-color: rgba(163, 145, 97, 1);
-      color: white;
-      padding: 0.5rem;
-      text-transform: uppercase;
-      font-weight: 600;
-      border: none;
-      margin: 2rem;
-      margin-top: 0%;
-      cursor: pointer;
-  }
-  
-  .currentPrice {
-      color: rgba(163, 145, 97, 1);
-      font-size: 20px;
-  }
-  
-  .previousPrice {
-      color: #444141;
-      text-decoration: line-through;
-      font-size: 13px;
-      padding: 5%;
-  }
+/* --------sidebar --------  */
 
   .navItem a {
     color: rgba(163, 145, 97, 1);
@@ -244,9 +157,4 @@
 .shopNavigation{
     list-style: none;
 }
-
-.productDiv {
-    text-align: center;
-}
-  
 

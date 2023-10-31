@@ -6,27 +6,26 @@ fetch(`http://localhost:3000/products/${URL.get("model")}`)
   })
   .then(function (data) {
     const PRODUCT_IMAGE = document.querySelector(".productImage");
+
     const PRODUCT_INFO = document.querySelector(".container__productInfo");
     PRODUCT_INFO.innerHTML = "";
     const ADDITIONAL_PRODUCT_INFO = document.querySelector(".productInfo__additional")
 
     PRODUCT_IMAGE.src = data.img;
     PRODUCT_INFO.innerHTML = `
-   
-    <div class="container__productInfo">
        <h2 class="productName">${data.model}</h2>
 
       <div class="productPrice">
           <a href="/productList.html" class="otherProducts__p"> See other ${data.brand} products</a>
        
+          <section>
           <span class="previousPrice">${data.previousPrice}</span>
           <span class="currentPrice">${data.currentPrice}</span>
+          </section>
       </div>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed quas laudantium obcaecati quo alias
+      <p class=" productInfo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed quas laudantium obcaecati quo alias
           deleniti inventore ut consequuntur dolores! Recusandae ratione eos qui dolorum nihil id at error
           quisquam quibusdam!</p>
-
-    </div>
     `
 
     ADDITIONAL_PRODUCT_INFO.innerHTML = 

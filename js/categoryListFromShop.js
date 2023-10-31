@@ -1,6 +1,6 @@
 
 const urlSearchParams = new URLSearchParams(window.location.search)
-const fetchURL = new URL('http://localhost:3000/products')
+const fetchURL = new URL('./http://localhost:3000/products')
 fetchURL.searchParams.set('_sort', urlSearchParams.get("sort" ?? "currentPrice"))
 fetchURL.searchParams.set('q', urlSearchParams.get("category"))
 
@@ -26,7 +26,7 @@ fetch(fetchURL)
       const LI = document.createElement("li");
       LI.className = "product__box";
       LI.innerHTML = `
-        <a href="/singleProduct.html?model=${item.id}">
+        <a href="./singleProduct.html?model=${item.id}">
         <figure class="product__figure">
         <img src="${item.img}" alt="product photo" class="product__img">
         </figure>

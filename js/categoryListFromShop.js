@@ -1,6 +1,6 @@
 
 const urlSearchParams = new URLSearchParams(window.location.search)
-const fetchURL = new URL('./http://localhost:3000/products')
+const fetchURL = new URL('https://ayachristia.github.io/Webshop-Search-Api-Json/db.json')
 fetchURL.searchParams.set('_sort', urlSearchParams.get("sort" ?? "currentPrice"))
 fetchURL.searchParams.set('q', urlSearchParams.get("category"))
 
@@ -18,7 +18,7 @@ fetch(fetchURL)
 
     const PREVIOUSFOCUS = document.querySelector(".categoryList__Ul");
 
-    data.forEach(function (item) {
+    data.products.forEach(function (item) {
       const headerFocus = document.querySelector(".categoryList__h2");
       headerFocus.textContent = item.category;
 
